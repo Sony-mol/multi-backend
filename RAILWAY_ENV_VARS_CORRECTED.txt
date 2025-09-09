@@ -1,0 +1,23 @@
+# CORRECTED Railway Environment Variables
+# Use these instead of the previous ones
+
+# Database Configuration - CORRECTED
+DATABASE_URL=jdbc:mysql://tramway.proxy.rlwy.net:23898/railway
+DB_USERNAME=root
+DB_PASSWORD=eRpmnhKpeqRMBETxYXgLktlnrdvLgZDJ
+
+# Email Configuration
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=rahulmekala22@gmail.com
+MAIL_PASSWORD=nufy kvuk srfe wces
+
+# Application Configuration (Auto-set by Railway)
+JAVA_OPTS=-Xmx512m -Xms256m
+SPRING_PROFILES_ACTIVE=railway
+
+# IMPORTANT: Update these in your Railway dashboard:
+# 1. Go to your Railway project dashboard
+# 2. Navigate to Variables tab
+# 3. Update DATABASE_URL, DB_USERNAME, and DB_PASSWORD with the values above
+# 4. This should fix the Railway dashboard database connection status
